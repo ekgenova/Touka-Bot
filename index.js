@@ -1,11 +1,11 @@
-const Discord = require('discord.js');
+var Discord = require('discord.js');
 var bot = new Discord.Client();
 
 const PREFIX = ">";
 
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as ${client.user.tag}! and serving in CF101`);
 });
 
 client.on('message', msg => {
@@ -26,12 +26,12 @@ client.on('message', msg => {
     case "commands":
       message.channel.sendMessage("List of commands: WIP");
       break;
-    case "unit";
-      switch (expression) {
-        case expression:
-
-          break;
-        default:
+    //case "unit";
+    //  switch (expression) {
+    //    case expression:
+//
+  //        break;
+  //      default:
 
       }
 
