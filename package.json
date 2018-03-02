@@ -1,7 +1,25 @@
 {
-  "name": "",
-  "version": "",
+  "name": "touka-bot-cf101",
+  "version": "0.1.0",
+  "description": "A Crash Fever bot designed to help players with unit info and regular the CF101 discord channel",
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
   "dependencies": {
     "discord.js": "^11.3.0"
-  }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/touka-bot-cf101.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "Kate#5887",
+  "license": "MIT",
 }
