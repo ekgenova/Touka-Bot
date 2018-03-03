@@ -37,7 +37,7 @@ client.on('message', msg => {
 
 
 
-  )}
+  )};
 
 
 client.login('NDEwMjEwMTAzNjEwODM0OTQ0.DVp2lw.1uShlJvZW5Cv6Dzwf4pNvDmqQeE');
