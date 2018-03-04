@@ -1,0 +1,249 @@
+//FESTIVAL UNITS
+//
+//RED
+
+
+
+//FESTIVAL UNITS
+//
+//GREEN
+
+
+
+//FESTIVAL UNITS
+//
+//BLUE
+
+
+
+//FESTIVAL UNITS
+//
+//YELLOW
+
+
+
+//REGIONAL FES
+//
+//RED
+
+
+
+//REGIONAL FES
+//
+//GREEN
+
+
+
+//REGIONAL FES
+//
+//BLUE
+
+
+
+//REGIONAL FES
+//
+//YELLOW
+
+
+
+//REGIONAL UNITS
+//
+//
+
+
+
+/SUMMER UNITS
+//
+//RED
+
+
+
+//SUMMER UNITS
+//
+//GREEN
+
+
+
+//SUMMER UNITS
+//
+//BLUE
+
+
+
+//SUMMER UNITS
+//
+//YELLOW
+
+
+
+//NEW YEAR UNITS
+//
+//
+
+
+
+//VALENTINES EVENT
+//
+//
+
+
+
+//CHRISTMAS EVENT
+//
+//
+
+
+
+//SCHOOL FESTIVAL
+//
+//
+
+
+
+//BRIDE EVENT
+//WHITE DAY EVENT
+//
+
+
+
+//SPRING EVENT
+//
+//
+
+
+
+//HALLOWEEN EVENT
+//
+//
+
+
+
+//RANKING UNITS
+//
+//
+
+
+
+//VOCALOID HATSUNE MIKU
+//COLLABORATION
+//
+
+
+
+//ULTIMATE WIZARD QUEST
+//
+//
+
+
+
+//WIZARD QUEST
+//
+//RED
+
+
+
+//WIZARD QUEST
+//
+//GREEN
+
+
+
+//WIZARD QUEST
+//
+//BLUE
+
+
+
+//WIZARD QUEST
+//
+//YELLOW
+
+
+
+//PERMANENT UNITS
+//
+//RED
+
+
+
+//PERMANENT UNITS
+//
+//GREEN
+
+
+
+//PERMANENT UNITS
+//
+//BLUE
+
+
+
+//PERMANENT UNITS
+//
+//YELLOW
+
+
+
+//BATTLE CATS
+//COLLABORATION
+//
+
+
+
+//TOWER OF THE QUEEN
+//COLLABORATION
+//
+
+
+
+//KING OF FIGHTERS
+//COLLABORATION
+//
+
+
+
+//GHOST STORE
+//
+//
+
+
+
+//ANNIVERSARY UNITS
+//COMMEMORATIVE UNITS
+//
+
+
+
+//TOWER OF SAVIORS
+//COLLABORATION
+//
+
+
+
+//LINK UNITS
+//
+//
+
+
+
+//STORY QUEST
+//
+//
+
+
+
+//RAID UNITS
+//
+//
+
+
+
+//OTHER UNITS
+//
+//
+
+
+
+//TANABATA EVENT
+//
+//

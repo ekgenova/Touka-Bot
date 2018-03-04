@@ -1,0 +1,15 @@
+RED
+
+"**Goddess of New Year Caishen **\n" +
+"__Cost__: 55 , __Tribe__: Deity\n" +
+"__Type__: Technical , __Color__: Red\n+ " +
+"HP 6387 ATK 5050 REC 3306 \n" +
+"__Skill__: 7 panels to red bombs (L) + 1 panel to red CBP + chance front unit CP drops, DEF ultra boost 1 turn (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: When in front, destroy 40+ panels during turn to boost ATK\n" +
+"__Ability 2__: protect break\n" +
+"__Ability 3__: When in front and fever at 100%, chance red bombs (L) drop (10 bug)\n" +
+"__Ability 4__: junk break (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Regional Festival "

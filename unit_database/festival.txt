@@ -1,0 +1,37 @@
+RED
+
+"**Chain of Emotion Morse** \n" +
+"__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
+"__Type__: Technical , __Color__: Red\n" +
+"HP 6552 ATK 4033 REC 4167\n" +
+"__Skill__: Convert hearts to CP + 2 turns, drop hearts as red bombs, boost red ATK (absorb Yellow, Blue to enhance). (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + recover low HP + boost party REC for 2 turns.\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: boost heart spawn rate when in front\n" +
+"__Apples__: red\n" +
+"__Rating__: SSS\n" +
+"__Obtainable__: Fever Festival"
+
+"**Quantum Progenitor Bohr**\n" +
+"__Cost__: 55, __Tribe__: Academic, Human\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 6685 ATK 5874 REC 2103 \n" +
+"__Skill__: Bombs, yellow panels to CP + up to 5 red panels to red bombs (L) + no green, heart panels 2 turns (8 turns).\n" +
+"__CSkill__: Ultra damage to 1 enemy.\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: 10,000 HP barrier at start of battle\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever Festival"
+
+"**Blazing Legs Fahrenheit **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Demon\n" +
+"__Type__: Stamina , __Color__: Red\n+ " +
+"HP 9947 ATK 4625 REC 2113 \n" +
+"__Skill__: 4 panels to SCP (L) + Laser (X pattern) + Reduce damage from enemies 30% 2 turns + Chance hearts drop as red bombs (7 turns)\n" +
+"__CSkill__: Ultra 2-hit combo with red, blue damage to 1 enemy based on own max HP\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: if unit in party breaks 4 CP in 1 turn, boost all unit ATK by 600\n" +
+"__Apples__: green\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever Festival"
