@@ -35,3 +35,72 @@ RED
 "__Apples__: green\n" +
 "__Rating__: SS\n" +
 "__Obtainable__: Fever Festival"
+
+"**Multiple Realities Schrödinger (UA) **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Animal\n" +
+"__Type__: Technical , __Color__: Red\n+ " +
+"HP 6741 ATK 4538 REC 3488 \n" +
+"__Skill__: Convert green to red + for 2 turns, party easy CP spawn (immense) + Reduce green panel rate 1 turn (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: junk break\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever Festival"
+
+"**Crumbling Worlds Schrödinger **\n" +
+"__Cost__: 55 , __Tribe__: Animal\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 7140 ATK 4618 REC 3087 \n" +
+"__Skill__: Easy CP generation 2 turns (extreme) + convert blue to red (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + high chance to inflict Virus\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever Festival"
+
+
+"**Burning Electroflower Volta **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Human\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 7110 ATK 6078 REC 2301 \n" +
+"__Skill__: Hearts to red bombs (L) + add 2 taps to party 2 turns + chance red, blue, yellow panels drop as front unit CP (L) 1 turn (8 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + damage to all enemies\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: when in front, in 1 turn, destroy 50 panels for massive ATK boost\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever Festival"
+
+"**Hunter of Dreams Froid (UA) **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Mech\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 6790 ATK 4820 REC 3430 \n" +
+"__Skill__: Up to 1 panel to SCP(XL), up to 1 to bomb(L) + chance 5 colors of bombs(L) 1 turn + damage 40% lower 2 turns (8 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy, ultra effect against deity\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: boost red panel rate when in front\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever Festival"
+
+"**Illusory Phantom Cauchy **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 6930 ATK 5584 REC 2298 \n" +
+"__Skill__: Convert red panels to CP, yellow to red + mass. boost party ATK/DEF 3 turns (8 turns)\n" +
+"__CSkill__: high red then green damage to 1 enemy\n" +
+"__Ability 1__: enhance bomb blast when in front\n" +
+"__Ability 2__: virus ineffective\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Commemorative Fever Festival"
+
+"**Ecstatic Sheep Hunter Froid **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Mech\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 7140 ATK 4627 REC 3430 \n" +
+"__Skill__: Convert 2 panels to SCP(L) + low chance of bombs 1 turn + damage reduced 40% 2 turns (8 turns)\n" +
+"__CSkill__: massive damage to 1 enemy + high effect against deity\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever Festival"

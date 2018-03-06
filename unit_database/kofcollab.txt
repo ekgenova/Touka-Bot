@@ -1,0 +1,12 @@
+"**Beautiful Ninja Mai **\n" +
+"__Cost__: 55 , __Tribe__: Human\n" +
+"__Type__: Recovery , __Color__: Red\n+ " +
+"HP 5916 ATK 4370 REC 4610 \n" +
+"__Skill__: High damage to 1 enemy + horizontal line to 2 SCP, 1 SCP (XL), red bombs + unlock hearts + chance yellow,hearts drop as heart bombs 2 turn (7 turns)\n" +
+"__CSkill__: Damage to 1 enemy 3 times + high hp recovery\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: massive boost to own ATK/REC during Fever\n" +
+"__Ability 3__: boost damage against Mature, Vice and Iori during the Saxophone Under the Moon! quest" +
+"__Apples__: red (can blue)\n" +
+"__Rating__: S\n" +
+"__Obtainable__: King of Fighters collaboration hatcher"

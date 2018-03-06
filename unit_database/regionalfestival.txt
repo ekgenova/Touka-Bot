@@ -13,3 +13,17 @@ RED
 "__Apples__: red\n" +
 "__Rating__: SS\n" +
 "__Obtainable__: Regional Festival "
+
+"**Spiteful Witch Perchta **\n" +
+"__Cost__: 55 , __Tribe__: Demon, Fantasy\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 7140 ATK 4627 REC 3087 \n" +
+"__Skill__: 3 columns: red, green, CP + mass. CP enhance + red, green unit strong bomb blast 2 turns + red unit add 1 tap (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: when in front, low chance red bombs(L) drop\n" +
+"__Ability 3__: boost to own CSkill power (10 bug)\n" +
+"__Ability 4__: 400 boost to own ATK, REC, DEF (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Regional Summer Festival"

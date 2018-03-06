@@ -1,0 +1,10 @@
+"**Master Detective Holmes **\n" +
+"__Cost__: 53 , __Tribe__: Human, Hero\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 6712 ATK 5641 REC 2238 \n" +
+"__Skill__: Blue panels to red bombs + boost party ATK (absorb green, junk for mass. boost), blue panels may drop as red 1 turn (4 turn)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: protect break\n" +
+"__Apples__: red\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Permanent (any hatcher)"

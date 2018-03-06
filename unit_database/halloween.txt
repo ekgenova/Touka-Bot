@@ -1,0 +1,12 @@
+"**Night Desires Samhain **\n" +
+"__Cost__: 55 , __Tribe__: Demon, Animal\n" +
+"__Type__: Stamina , __Color__: Red\n+ " +
+"HP 11673 ATK 4333 REC 840 \n" +
+"__Skill__: Yellow, blue to CP +  give red, green units damage panel break, add tap 2 turns (6 turns)\n" +
+"__CSkill__: Massive damage twice to 1 enemy based on own max HP + recover HP\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: when HP is <= 35%, own REC boosted by 4,000\n" +
+"__Ability 3__: high boost to all own attacks in Gimme Sweets and Sweet-Fanged Vampire quests\n" +
+"__Apples__: green\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Halloween 2017 Event Hatcher"

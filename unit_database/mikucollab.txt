@@ -1,0 +1,27 @@
+"**Shadow Songstress Hatsune Miku **\n" +
+"__Cost__: 55 , __Tribe__: Unidentified\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 6790 ATK 6097 REC 1609 \n" +
+"__Skill__: V-shaped CP conversion + gain 3000 ATK, 2 extra taps for 7 turns + No yellow panels 3 turns (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: when in front, red, green, yellow, blue can't be locked\n" +
+"__Ability 3__: high damage boost to all own attacks during 2018 Miku Crossover Quests\n" +
+"__Ability 3__: No green panels when in front and Fever Gauge is at 39% or higher (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Vocaloid Crossover Event 2018 Hatcher"
+
+"**Gorgeous Song Luka & Miku **\n" +
+"__Cost__: 50 , __Tribe__: Unidentified\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 6500 ATK 4376 REC 3249 \n" +
+"__Skill__: X-shaped laser + ultra ATK boost for all units, ultra easy CP spawn, no blue panels 2 turns (8 turns)\n" +
+"__CSkill__: High red and green damage in 2 hits to 1 enemy\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: when in front, red, green panels can't be locked\n" +
+"__Ability 3__: boost damage of all own attacks during 2018 Miku Crossover Quests\n" +
+"__Ability 4__: at start of each floor, own skill turn reduced by 1 (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Vocaloid Crossover Event 2018 Hatcher"

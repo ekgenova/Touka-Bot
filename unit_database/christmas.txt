@@ -1,0 +1,13 @@
+"**Dashing Night Thief Lupin **\n" +
+"__Cost__: 50 , __Tribe__: Human, Fantasy\n" +
+"__Type__: Recovery , __Color__: Red\n+ " +
+"HP 5914 ATK 3840 REC 5033 \n" +
+"__Skill__: Up to 12 non-red panels to CP + give red units junk break 1 turn (4 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy based on own REC + drop up to 3 CP(L) for front unit next turn\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: boost following unit ATK by 700 (20 bug)\n" +
+"__Ability 3__: boost preceeding unit REC by 700 (40 bug)\n" +
+"__Ability 4__: boost CSkill damage for units on both sides (60 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Christmas Event Ultimate Wizard Quest"

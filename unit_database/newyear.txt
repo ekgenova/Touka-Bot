@@ -1,0 +1,26 @@
+"**Spring Swimming Theory Galois **\n" +
+"__Cost__: 55 , __Tribe__: Academic\n" +
+"__Type__: Stamina , __Color__: Red\n+ " +
+"HP 10049 ATK 4370 REC 2521 \n" +
+"__Skill__: 1 panel to SCP(XL) + 10,000 self barrier + party easy CP (immense), red panel rate boost 2 turns (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + red unit ATK 100 boost 2 turns\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: add 1 tap to self when there is a Balanced type unit in your party\n" +
+"__Ability 3__: high power boost to all own attack in New Zodiac Update and Ancient Divine Dance\n" +
+"__Apples__: red\n" +
+"__Rating__: SSS\n" +
+"__Obtainable__: New Year Dream 2018 Hatcher"
+
+"**Extreme Theorist Euclid **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Human\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 6930 ATK 4584 REC 3087 \n" +
+"__Skill__: 1 panel to red CBP, green to red bombs(L) + green, hearts may drop as front CP, red bombs 2 turns (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + recover HP\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: enhance bomb blast when in front\n" +
+"__Ability 3__: high power boost to own attacks in New Zodiac Update and Ancient Divine Dance\n" +
+"__Ability 4__: break 40+ panels in 1 turn for massive easy CP spawn (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: New Year Dream 2018 Hatcher"

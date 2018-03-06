@@ -1,0 +1,34 @@
+"**Nobunaga Oda, Flame Shadow (UA) **\n" +
+"__Cost__: 50 , __Tribe__: Human, Samurai\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 6770 ATK 4631 REC 3108 \n" +
+"__Skill__: Junk, yellow panels to red + red unit ATK mass. boost, 2 extra taps, red units join attack 1 turn (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: blast reduction ineffective\n" +
+"__Ability 2__: enhance bomb blast when in front (15 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Ultimate Wizard Quest"
+
+"**Nobunaga Oda, True Conquerer **\n" +
+"__Cost__: 50 , __Tribe__: Human, Samurai\n" +
+"__Type__: Balanced , __Color__: Red\n+ " +
+"HP 6721 ATK 4332 REC 3408 \n" +
+"__Skill__: For 1 turn, supper boost red unit ATK + add 2 taps + all red units join attack (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy + high effect against deity\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Ultimate Wizard Quest"
+
+
+"**Rowdy Lion Gilgamesh **\n" +
+"__Cost__: 50 , __Tribe__: Deity, Human\n" +
+"__Type__: Offense , __Color__: Red\n+ " +
+"HP 6427 ATK 5504 REC 2090 \n" +
+"__Skill__: Spawn 1 SCP(XL), 1 SCP(L), 4 CP(L) at random (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: when in front, chain 12 panels in 1 tap for own ATK boost (once per turn)\n" +
+"__Apples__: red\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Ultimate Wizard Quest"
