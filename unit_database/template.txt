@@ -1,11 +1,39 @@
 "** **\n" +
 "__Cost__:  , __Tribe__: \n" +
-"__Type__:  __Color__: \n+ " +
+"__Type__:  __Color__: \n " +
 "HP  ATK  REC  \n" +
 "__Skill__: \n" +
 "__CSkill__: \n" +
 "__Ability 1__: \n" +
 "__Ability 2__: \n" +
+"__Apples__: \n" +
+"__Rating__: \n" +
+"__Obtainable__: "
+
+
+"** **\n" +
+"__Cost__:  , __Tribe__: \n" +
+"__Type__:  __Color__: \n " +
+"HP  ATK  REC  \n" +
+"__Skill__: \n" +
+"__CSkill__: \n" +
+"__Ability 1__: \n" +
+"__Ability 2__: \n" +
+"__Ability 3__: \n" +
+"__Apples__: \n" +
+"__Rating__: \n" +
+"__Obtainable__: "
+
+"** **\n" +
+"__Cost__:  , __Tribe__: \n" +
+"__Type__:  __Color__: \n " +
+"HP  ATK  REC  \n" +
+"__Skill__: \n" +
+"__CSkill__: \n" +
+"__Ability 1__: \n" +
+"__Ability 2__: \n" +
+"__Ability 3__: \n" +
+"__Ability 4__: \n" +
 "__Apples__: \n" +
 "__Rating__: \n" +
 "__Obtainable__: "

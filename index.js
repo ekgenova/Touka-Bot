@@ -18,15 +18,18 @@ bot.on('ready', () => {
 //Includes: >welcome, >commands, >unit xx, >pic xx, >ducks
 bot.on('message', (message) => {
 
-  console.log(`Message sent by ${message.author.username}`);
+  var args = message.content.toLowerCase().split(/ +/g);
+  var command = args.shift().toLowerCase();
+  var argsFinal = args.join(" ");
 
+
+  if ((message.content).startswith(">")){
+    console.log(`Message sent by ${message.author.username}. Message: ${message.content}`)};
 
 //Separating the command and the arguments
 //For example, >unit touka separates to command = >unit and args = touka
 //Multiple arguments separate into an array
 
-  var args = message.content.toLowerCase().split(/ +/g);
-  var command = args.shift().toLowerCase();
 
   if (message.author.equals(bot.user)) return;
 
@@ -45,7 +48,7 @@ bot.on('message', (message) => {
 
 
     if (command == ">unit"){
-      switch (args[0]) {
+      switch (argsFinal) {
         //FESTIVAL UNITS
         //
         //RED
@@ -63,11 +66,10 @@ bot.on('message', (message) => {
           "__Obtainable__: Fever Festival Hatchers\n");
           break;
 
-        case 'borh': //mispelled
         case 'bohr':
             message.channel.send("**Quantum Progenitor Bohr**\n" +
             "__Cost__: 55, __Tribe__: Academic, Human\n" +
-            "__Type__: Offense , __Color__: Red\n+ " +
+            "__Type__: Offense , __Color__: Red\n " +
             "HP 6685 ATK 5874 REC 2103 \n" +
             "__Skill__: Bombs, yellow panels to CP + up to 5 red panels to red bombs (L) + no green, heart panels 2 turns (8 turns).\n" +
             "__CSkill__: Ultra damage to 1 enemy.\n" +
@@ -82,7 +84,7 @@ bot.on('message', (message) => {
         case 'fahrenheit':
           message.channel.send("**Blazing Legs Fahrenheit **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Demon\n" +
-          "__Type__: Stamina , __Color__: Red\n+ " +
+          "__Type__: Stamina , __Color__: Red\n " +
           "HP 9947 ATK 4625 REC 2113 \n" +
           "__Skill__: 4 panels to SCP (L) + Laser (X pattern) + Reduce damage from enemies 30% 2 turns + Chance hearts drop as red bombs (7 turns)\n" +
           "__CSkill__: Ultra 2-hit combo with red, blue damage to 1 enemy based on own max HP\n" +
@@ -99,7 +101,7 @@ bot.on('message', (message) => {
         case 'schrodinger ua':
           message.channel.send("**Multiple Realities Schrödinger (UA) **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Animal\n" +
-          "__Type__: Technical , __Color__: Red\n+ " +
+          "__Type__: Technical , __Color__: Red\n " +
           "HP 6741 ATK 4538 REC 3488 \n" +
           "__Skill__: Convert green to red + for 2 turns, party easy CP spawn (immense) + Reduce green panel rate 1 turn (6 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -108,13 +110,12 @@ bot.on('message', (message) => {
           "__Apples__: red\n" +
           "__Rating__: SS\n" +
           "__Obtainable__: Fever Festival");
-          break;
 
         case 'schro':
         case 'schrodinger':
           message.channel.send("**Crumbling Worlds Schrödinger **\n" +
           "__Cost__: 55 , __Tribe__: Animal\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 7140 ATK 4618 REC 3087 \n" +
           "__Skill__: Easy CP generation 2 turns (extreme) + convert blue to red (6 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy + high chance to inflict Virus\n" +
@@ -126,7 +127,7 @@ bot.on('message', (message) => {
         case 'volta':
           message.channel.send("**Burning Electroflower Volta **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Human\n" +
-          "__Type__: Offense , __Color__: Red\n+ " +
+          "__Type__: Offense , __Color__: Red\n " +
           "HP 7110 ATK 6078 REC 2301 \n" +
           "__Skill__: Hearts to red bombs (L) + add 2 taps to party 2 turns + chance red, blue, yellow panels drop as front unit CP (L) 1 turn (8 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy + damage to all enemies\n" +
@@ -145,7 +146,7 @@ bot.on('message', (message) => {
         case 'freud':
           message.chanel.send("**Ecstatic Sheep Hunter Froid **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Mech\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 7140 ATK 4627 REC 3430 \n" +
           "__Skill__: Convert 2 panels to SCP(L) + low chance of bombs 1 turn + damage reduced 40% 2 turns (8 turns)\n" +
           "__CSkill__: massive damage to 1 enemy + high effect against deity\n" +
@@ -159,7 +160,7 @@ bot.on('message', (message) => {
         case 'freud ua':
           message.channel.send("**Hunter of Dreams Froid (UA) **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Mech\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 6790 ATK 4820 REC 3430 \n" +
           "__Skill__: Up to 1 panel to SCP(XL), up to 1 to bomb(L) + chance 5 colors of bombs(L) 1 turn + damage 40% lower 2 turns (8 turns)\n" +
           "__CSkill__: Massive damage to 1 enemy, ultra effect against deity\n" +
@@ -170,13 +171,10 @@ bot.on('message', (message) => {
           "__Obtainable__: Fever Festival");
           break;
 
-        case 'lagr':
         case 'lagrange':
-        case 'lagrange ua':
           message.channel.send();
-          break;
 
-        case 'lagr':
+        case 'lagrange ua':
         case 'lagrange':
           message.channel.send();
           break;
@@ -217,7 +215,7 @@ bot.on('message', (message) => {
         case 'caishen':
           message.channel.send("**Goddess of New Year Caishen **\n" +
           "__Cost__: 55 , __Tribe__: Deity\n" +
-          "__Type__: Technical , __Color__: Red\n+ " +
+          "__Type__: Technical , __Color__: Red\n " +
           "HP 6387 ATK 5050 REC 3306 \n" +
           "__Skill__: 7 panels to red bombs (L) + 1 panel to red CBP + chance front unit CP drops, DEF ultra boost 1 turn (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -234,7 +232,7 @@ bot.on('message', (message) => {
         case 'perchta':
           message.channel.send("**Spiteful Witch Perchta **\n" +
           "__Cost__: 55 , __Tribe__: Demon, Fantasy\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 7140 ATK 4627 REC 3087 \n" +
           "__Skill__: 3 columns: red, green, CP + mass. CP enhance + red, green unit strong bomb blast 2 turns + red unit add 1 tap (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -375,7 +373,7 @@ bot.on('message', (message) => {
         case 'gal':
           message.channel.send("**Spring Swimming Theory Galois **\n" +
           "__Cost__: 55 , __Tribe__: Academic\n" +
-          "__Type__: Stamina , __Color__: Red\n+ " +
+          "__Type__: Stamina , __Color__: Red\n " +
           "HP 10049 ATK 4370 REC 2521 \n" +
           "__Skill__: 1 panel to SCP(XL) + 10,000 self barrier + party easy CP (immense), red panel rate boost 2 turns (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy + red unit ATK 100 boost 2 turns\n" +
@@ -393,7 +391,7 @@ bot.on('message', (message) => {
         case 'euc':
           message.channel.send("**Extreme Theorist Euclid **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Human\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 6930 ATK 4584 REC 3087 \n" +
           "__Skill__: 1 panel to red CBP, green to red bombs(L) + green, hearts may drop as front CP, red bombs 2 turns (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy + recover HP\n" +
@@ -435,7 +433,19 @@ bot.on('message', (message) => {
         case 'valentines maxwell':
         case 'val maxwell':
         case 'maxwell':
-          message.channel.send();
+          message.channel.send("**Colorful Affection Maxwell **\n" +
+          "__Cost__: 55 , __Tribe__: Academic, Demon\n" +
+          "__Type__: Technical , __Color__: Red\n " +
+          "HP 7182 ATK 4511 REC 3149 \n" +
+          "__Skill__: Non-red panels to 1 red CBP + hearts, blue, junk to red + chance red bombs(L) drop 1 turn (6 turns)\n" +
+          "__CSkill__: Ultra damage to 1 enemy + red units gain 70 REC 2 turns\n" +
+          "__Ability 1__: virus ineffective\n" +
+          "__Ability 2__: 6,000 HP barrier at battle start\n" +
+          "__Ability 3__: High boost to own attacks in Valentines 2018 Quests.\n" +
+          "__Ability 4__: chance hearts drop as CP(L) when a demon is in front (20 bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: S\n" +
+          "__Obtainable__: Valentines 2018 Hatcher");
           break;
 
         case 'cornet':
@@ -451,6 +461,259 @@ bot.on('message', (message) => {
           message.channel.send();
           break;
 
+        case 'valentines lakshmi':
+        case 'val lakshmi':
+          message.channel.send("**Sweet Love God Lakshmi **\n" +
+          "__Cost__: 50 , __Tribe__: Deity\n" +
+          "__Type__: Technical , __Color__: Red\n " +
+          "HP 5616 ATK 4382 REC 3509 \n" +
+          "__Skill__: Yellow, damage, timer panels to CP + ultra ATK boost to all units 2 turns (7 turns)\n" +
+          "__CSkill__: Massive damage to 1 enemy. Ultra effect on Deity units.\n" +
+          "__Ability 1__: Virus ineffective\n" +
+          "__Ability 2__: Low chance CP drop when a Technical type unit in front\n" +
+          "__Ability 3__: Boost to own attacks in Valentines 2018 Quests\n" +
+          "__Ability 4__: Boost C Skill damage for Technical types (20 bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Hatcher side A");
+          break;
+
+        case 'valentines degas':
+        case 'val degas':
+          message.channel.send("**Sweet Exhibition Degas **\n" +
+          "__Cost__: 50 , __Tribe__: Animal\n" +
+          "__Type__: Recovery , __Color__: Red\n " +
+          "HP 5252 ATK 3413 REC 4966 \n" +
+          "__Skill__: Recover 4000 HP (each yellow, blue, junk absorbed adds 500 HP) + animal units gain 2140 ATK, 1 extra tap 2 turns (6 turns)\n" +
+          "__CSkill__: Ultra damage to 1 enemy based on own REC\n" +
+          "__Ability 1__: damage panel break\n" +
+          "__Ability 2__: reduce 15% of damage taken from Animal enemies\n" +
+          "__Ability 3__: boost boost to own attacks in Valentines 2018 Quests\n" +
+          "__Ability 4__: -2 skill turns for animal units when a quest begins (20 bug)\n" +
+          "__Apples__: blue\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Hatcher side A");
+          break;
+
+        case 'valentines fay':
+        case 'val fay':
+          message.channel.send("**Crimson Tide Fairy Fay **\n" +
+          "__Cost__: 50 , __Tribe__: Unidentified, Fantasy\n" +
+          "__Type__: Recovery , __Color__: Red\n " +
+          "HP 5616 ATK 3165 REC 4794 \n" +
+          "__Skill__: 8 panels to SCP + High boost to red panel rate 2 turns + lower blue panel rate 1 turn (6 turns)\n" +
+          "__CSkill__: red units gain 50 REC 2 turns + recover high HP + boost fever gauge\n" +
+          "__Ability 1__: damage panel break\n" +
+          "__Ability 2__: when arriving at final floor, recover full HP at end of turn\n" +
+          "__Ability 3__: boost to own attacks in Valentines 2018 Quests\n" +
+          "__Ability 4__: easy CP spawn for Fantasy units (20 bug)\n" +
+          "__Apples__: blue\n" +
+          "__Rating__: A\n" +
+          "__Obtainable__: Valentines 2018 Hatcher side A or B");
+          break;
+
+        case 'valentines luci':
+        case 'valentines lucifugus':
+        case 'val lucifugus':
+        case 'val luci':
+          message.channel.send("**Chain of Attraction Lucifugus **\n" +
+          "__Cost__: 50 , __Tribe__: Demon, Fantasy\n" +
+          "__Type__: Balanced , __Color__: Red\n " +
+          "HP 6006 ATK 4416 REC 3185 \n" +
+          "__Skill__: Green panels to red, damage panels to blue + disables protect + green panels drop as red 1 turn (6 turns)\n" +
+          "__CSkill__: Massive damage to 1 enemy. Ultra effect on Green.\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: gain 400 ATK and REC when a technical type is in the party\n" +
+          "__Ability 3__: boost to own attacks in Valentines 2018 Quests\n" +
+          "__Ability 4__: during fever, demon units get high ATK and REC boost (20 bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: A+\n" +
+          "__Obtainable__: Valentines 2018 Hatcher side A or B");
+          break;
+
+        case 'sucre':
+          message.channel.send("**Sweet Witch Seduction Sucre **\n" +
+          "__Cost__: 45 , __Tribe__: Human, Fantasy\n" +
+          "__Type__: Balanced , __Color__: Green\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: 1 SCP(XL). 1 turn fantasy units get 1000 ATK, 1 massive SCP(XL) of current unit can drop (7 turns)\n" +
+          "__CSkill__: Massive damage to 1 unit\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: fantasy units get cp shortening (-1) (? bug)\n" +
+          "__Ability 3__: fantasy units get 214 ATK and REC (? bug)\n" +
+          "__Ability 4__: at the start of the quest, speed up skills of fantasy by 2 (? bug)\n" +
+          "__Apples__: ???\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Mystery Girl Trap Quest (Valentines 2018)");
+          break;
+
+        case 'gateau':
+          message.channel.send("**Gateau **\n" +
+          "__Cost__: ?? , __Tribe__: Fantasy\n" +
+          "__Type__: Offense , __Color__: Yellow\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: 4 random SCP(XL). 2 turn yellow units have yellow strengthened (10 turns)\n" +
+          "__CSkill__: 4 hits to a unit\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: when she takes damage from an enemy speed up her skill by 1 turn (? bug)\n" +
+          "__Ability 3__: at the beginning of each floor speed up her skill by 1 turn (? bug)\n" +
+          "__Ability 4__: large boost to her c skill damage (? bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Skillfull Sweets Manager Quest (Valentines 2018)");
+          break;
+
+        case 'valentines ame':
+        case 'val ame':
+        case 'valentines ame no murakumo':
+        case 'val ame no murakumo':
+          message.channel.send("**Ame no Murakumo (Valentine ver.) **\n" +
+          "__Cost__: 55 , __Tribe__: Weapon\n" +
+          "__Type__: Balanced , __Color__: Green\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: blue to green + 2 turns chance for any units cp(L) to drop (8 turns)\n" +
+          "__CSkill__: ultra damage to 1 unit\n" +
+          "__Ability 1__: protect break\n" +
+          "__Ability 2__: weapons and hero's get 500 ATK and REC\n" +
+          "__Ability 3__: if in 1 tap break 15+ chain, boost all unit cp damage\n" +
+          "__Ability 4__: at the start of the quest speed up weapon and hero skills by 2 turns\n" +
+          "__Apples__: ?\n" +
+          "__Rating__: ?\n" +
+          "__Obtainable__: Valentines 2018 Ranking exchange");
+          break;
+
+        case 'valentines gungnir':
+        case 'valentines gung':
+        case 'val gung':
+        case 'val gungnir':
+          message.channel.send("**Gungnir (Valentine ver.) **\n" +
+          "__Cost__: 55 , __Tribe__: Weapon\n" +
+          "__Type__: Offense , __Color__: Blue\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: Green to CP + 3 turns boost own ATK (absorb hearts for mass. boost) + 1 turn, no hearts (5 turns)\n" +
+          "__CSkill__: Ultra damage to 1 enemy\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: weapons and deity get CP shortening (-2)\n" +
+          "__Ability 3__: stamina or recovery unit on team, boost own ATK by 1500\n" +
+          "__Ability 4__: on her turn, green and yellow have a chance to drop as large blue bombs\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Ranking exchange");
+          break;
+
+        case 'valentines gamba':
+        case 'valentines gambanteinn':
+        case 'val gamba':
+        case 'val gambanteinn':
+          message.channel.send("**Gambanteinn (Valentines ver.) **\n" +
+          "__Cost__: 55 , __Tribe__: Weapon\n" +
+          "__Type__: Technical , __Color__: Yellow\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: hearts to CP + 2 turns yellow units get extra tap, yellow and blues have a chance to drop as yellow bombs (7 turns)\n" +
+          "__CSkill__: 4 hit large damage regardless of DEF\n" +
+          "__Ability 1__: damage panel break\n" +
+          "__Ability 2__: virus ineffective\n" +
+          "__Ability 3__: technical units turn, low chance of cp drop\n" +
+          "__Ability 4__: technical units turn, chance yellow bombs drop\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Ranking exchange");
+          break;
+
+        case 'valentines laev':
+        case 'val laev':
+        case 'valentines laevateinn':
+        case 'val laevateinn':
+          message.channel.send("**Lævateinn (Valentines ver.)**\n" +
+          "__Cost__: 55 , __Tribe__: Weapon, Demon\n" +
+          "__Type__: Stamina , __Color__: Red\n " +
+          "HP ? ATK ? REC? \n" +
+          "__Skill__: 1 random panel to SCP(XL) + red and junk to cp + 1 turn, yellow and green rate decreased (? turns)\n" +
+          "__CSkill__: ultra damage to 1 enemy + 1 turn, demon units get 150 DEF\n" +
+          "__Ability 1__: protect break\n" +
+          "__Ability 2__: at start of quests, demon and weapons speed up skills by 1\n" +
+          "__Ability 3__: demon units turn, low chance of cp drop\n" +
+          "__Ability 4__: weapon and demon units get 990 ATK\n" +
+          "__Apples__: ???\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Ranking exchange");
+          break;
+
+        case 'lamoure':
+        case 'l\'amoure':
+          message.channel.send("**L'amoure **\n" +
+          "__Cost__: 55 , __Tribe__: Fantasy\n" +
+          "__Type__: Technical , __Color__: Red\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: 2 turns, all units get red strengthened panels + 1 turn, no hearts (5 turns)\n" +
+          "__CSkill__: two massive damage fixed hits regardless of DEF\n" +
+          "__Ability 1__: on her turn, chance for red bomb drop\n" +
+          "__Ability 2__: at the beginning of each floor, increase her attack by 5000\n" +
+          "__Ability 3__: ultimate damage for Halley challenge\n" +
+          "__Ability 4__: at the beginning of each floor add 2 taps to her\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Ranking Hatcher");
+          break;
+
+        case 'valentines para':
+        case 'valentines paracelsus':
+        case 'val para':
+        case 'val paracelsus':
+          message.channel.send("**Paracelsus (Valentine ver) **\n" +
+          "__Cost__: 55 , __Tribe__: Academic, Animal\n" +
+          "__Type__: Technical , __Color__: Green\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: yellow, damage, timers to green panels + 1 turn, max of 3 own Massive SCP(XL) low chance of dropping (6 turns)\n" +
+          "__CSkill__: 3 massive fixed damage hits regardless of DEF\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: on her turn, ultra cp shortening (-6)\n" +
+          "__Ability 3__: large damage boost 2018 Valentines quest\n" +
+          "__Ability 4__: animal units turn, chance for greens to drop as cp (20 bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2017 Hatcher Side B");
+          break;
+
+        case 'valentines sleeping beauty':
+        case 'val sleeping beauty':
+        case 'valentines briar rose':
+        case 'val briar rose':
+          message.channel.send("**Sleeping Beauty (Valentines ver.) **\n" +
+          "__Cost__: ? , __Tribe__: Fantasy\n" +
+          "__Type__: Offense , __Color__: Green\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: red, yellow and blue panels each become up to 4 CP + 1 turn green units get ultra CP spawn (-6) and 2 taps (? turns)\n" +
+          "__CSkill__: massive damage to 1 unit. ultra vs balanced types\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: on her turn, green rate up\n" +
+          "__Ability 3__: damage boost 2018 Valentines quest\n" +
+          "__Ability 4__: fantasy units get 600 ATL (20 bug)\n" +
+          "__Apples__: red\n" +
+          "__Rating__: ??\n" +
+          "__Obtainable__: Valentines 2018 Hatcher Side B");
+          break;
+
+        case 'valentines d\'artagnan':
+        case 'valentines dartagan':
+        case 'valentines dart':
+        case 'val dart':
+        case 'val dartagnan':
+        case 'val d\'artagnan':
+          message.channel.send("**D'artagnan (Valentine ver.) **\n" +
+          "__Cost__: ? , __Tribe__: Hero\n" +
+          "__Type__: Recovery , __Color__: Green\n " +
+          "HP ? ATK ? REC ? \n" +
+          "__Skill__: 2 turns, all units REC boost (absorb red, hearts for mass. boost), 1 tap, a total of 14 SCP will drop from any unit (7 turns)\n" +
+          "__CSkill__: ultra damage to 1 unit based on REC + 2 turns, boost own REC by 100\n" +
+          "__Ability 1__: junk break\n" +
+          "__Ability 2__: bomb blast enhance\n" +
+          "__Ability 3__: damage boost Valentines 2018\n" +
+          "__Ability 4__: start of quest, speed up hero unit skills by 2 (20 bug)\n" +
+          "__Apples__: blue\n" +
+          "__Rating__: ???\n" +
+          "__Obtainable__: Valentines 2018 Hatcher Side B");
+          break;
 
 
         //CHRISTMAS EVENT
@@ -462,7 +725,7 @@ bot.on('message', (message) => {
         case 'lupin':
           message.channel.send("**Dashing Night Thief Lupin **\n" +
           "__Cost__: 50 , __Tribe__: Human, Fantasy\n" +
-          "__Type__: Recovery , __Color__: Red\n+ " +
+          "__Type__: Recovery , __Color__: Red\n " +
           "HP 5914 ATK 3840 REC 5033 \n" +
           "__Skill__: Up to 12 non-red panels to CP + give red units junk break 1 turn (4 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy based on own REC + drop up to 3 CP(L) for front unit next turn\n" +
@@ -532,7 +795,7 @@ bot.on('message', (message) => {
         case 'sam':
           message.channel.send("**Night Desires Samhain **\n" +
           "__Cost__: 55 , __Tribe__: Demon, Animal\n" +
-          "__Type__: Stamina , __Color__: Red\n+ " +
+          "__Type__: Stamina , __Color__: Red\n " +
           "HP 11673 ATK 4333 REC 840 \n" +
           "__Skill__: Yellow, blue to CP +  give red, green units damage panel break, add tap 2 turns (6 turns)\n" +
           "__CSkill__: Massive damage twice to 1 enemy based on own max HP + recover HP\n" +
@@ -624,14 +887,13 @@ bot.on('message', (message) => {
         //COLLABORATION
         //
 
-        case 'miku':
         case 'black miku':
         case 'hatsune miku':
         case 'black hatsune miku':
-        case 'shadow miku':
+        case 'shadow songstress miku':
           message.channel.send("**Shadow Songstress Hatsune Miku **\n" +
           "__Cost__: 55 , __Tribe__: Unidentified\n" +
-          "__Type__: Offense , __Color__: Red\n+ " +
+          "__Type__: Offense , __Color__: Red\n " +
           "HP 6790 ATK 6097 REC 1609 \n" +
           "__Skill__: V-shaped CP conversion + gain 3000 ATK, 2 extra taps for 7 turns + No yellow panels 3 turns (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -650,7 +912,7 @@ bot.on('message', (message) => {
         case 'luka and miku':
           message.channel.send("**Gorgeous Song Luka & Miku **\n" +
           "__Cost__: 50 , __Tribe__: Unidentified\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 6500 ATK 4376 REC 3249 \n" +
           "__Skill__: X-shaped laser + ultra ATK boost for all units, ultra easy CP spawn, no blue panels 2 turns (8 turns)\n" +
           "__CSkill__: High red and green damage in 2 hits to 1 enemy\n" +
@@ -689,7 +951,7 @@ bot.on('message', (message) => {
         case 'nobunaga oda':
           message.channel.send("**Nobunaga Oda, True Conquerer **\n" +
           "__Cost__: 50 , __Tribe__: Human, Samurai\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 6721 ATK 4332 REC 3408 \n" +
           "__Skill__: For 1 turn, supper boost red unit ATK + add 2 taps + all red units join attack (7 turns)\n" +
           "__CSkill__: Massive damage to 1 enemy + high effect against deity\n" +
@@ -711,7 +973,7 @@ bot.on('message', (message) => {
         case 'nobunaga oda ua':
           message.channel.send("**Nobunaga Oda, Flame Shadow (UA) **\n" +
           "__Cost__: 50 , __Tribe__: Human, Samurai\n" +
-          "__Type__: Balanced , __Color__: Red\n+ " +
+          "__Type__: Balanced , __Color__: Red\n " +
           "HP 6770 ATK 4631 REC 3108 \n" +
           "__Skill__: Junk, yellow panels to red + red unit ATK mass. boost, 2 extra taps, red units join attack 1 turn (7 turns)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -727,7 +989,7 @@ bot.on('message', (message) => {
         case 'gilgamesh':
           message.channel.send("**Rowdy Lion Gilgamesh **\n" +
           "__Cost__: 50 , __Tribe__: Deity, Human\n" +
-          "__Type__: Offense , __Color__: Red\n+ " +
+          "__Type__: Offense , __Color__: Red\n " +
           "HP 6427 ATK 5504 REC 2090 \n" +
           "__Skill__: Spawn 1 SCP(XL), 1 SCP(L), 4 CP(L) at random (7 turns)\n" +
           "__CSkill__: Massive damage to 1 enemy\n" +
@@ -877,7 +1139,7 @@ bot.on('message', (message) => {
         case 'holmes':
           message.channel.send("**Master Detective Holmes **\n" +
           "__Cost__: 53 , __Tribe__: Human, Hero\n" +
-          "__Type__: Offense , __Color__: Red\n+ " +
+          "__Type__: Offense , __Color__: Red\n " +
           "HP 6712 ATK 5641 REC 2238 \n" +
           "__Skill__: Blue panels to red bombs + boost party ATK (absorb green, junk for mass. boost), blue panels may drop as red 1 turn (4 turn)\n" +
           "__CSkill__: Ultra damage to 1 enemy\n" +
@@ -1084,7 +1346,7 @@ bot.on('message', (message) => {
         case 'mai shiranui':
           message.channel.send("**Beautiful Ninja Mai **\n" +
           "__Cost__: 55 , __Tribe__: Human\n" +
-          "__Type__: Recovery , __Color__: Red\n+ " +
+          "__Type__: Recovery , __Color__: Red\n " +
           "HP 5916 ATK 4370 REC 4610 \n" +
           "__Skill__: High damage to 1 enemy + horizontal line to 2 SCP, 1 SCP (XL), red bombs + unlock hearts + chance yellow,hearts drop as heart bombs 2 turn (7 turns)\n" +
           "__CSkill__: Damage to 1 enemy 3 times + high hp recovery\n" +
@@ -1143,7 +1405,7 @@ bot.on('message', (message) => {
         case 'cauchy':
           message.channel.send("**Illusory Phantom Cauchy **\n" +
           "__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
-          "__Type__: Offense , __Color__: Red\n+ " +
+          "__Type__: Offense , __Color__: Red\n " +
           "HP 6930 ATK 5584 REC 2298 \n" +
           "__Skill__: Convert red panels to CP, yellow to red + mass. boost party ATK/DEF 3 turns (8 turns)\n" +
           "__CSkill__: high red then green damage to 1 enemy\n" +
@@ -1213,71 +1475,172 @@ bot.on('message', (message) => {
 //
 //
     if (command == ">pic"){
-      switch (args[0]){
+      switch (argsFinal){
         case 'morse':
           message.channel.send("", {file: "https://i.imgur.com/w19w1tQ.jpg" });
+          break;
         case 'bohr':
           message.channel.send("", {file: "https://i.imgur.com/pHnovEl.png"});
+          break;
         case 'cai':
         case 'caishen':
           message.channel.send("", {file: "https://i.imgur.com/lzlUHF1.jpg"});
+          break;
         case 'fahren':
         case 'fahrenheit':
           message.channel.send("", {file: "https://i.imgur.com/kbAXeEU.png"});
+          break;
         case 'schro ua':
         case 'schrodinger ua':
           message.channel.send("", {file: "https://i.imgur.com/mdqG5fr.png"});
+          break;
         case 'schro':
         case 'schrodinger':
           message.channel.send("", {file: "https://i.imgur.com/z20QTGf.jpg"});
+          break;
         case 'volta':
           message.channel.send("", {file: "https://i.imgur.com/fhgPdRZ.jpg"});
+          break;
         case 'ny galois':
         case 'new year galois':
           message.channel.send("", {file: "https://i.imgur.com/DGhruuE.jpg"});
+          break;
         case 'mai':
         case 'mai shiranui':
           message.channel.send("", {file: "https://i.imgur.com/Amn84cO.jpg"});
+          break;
         case 'froid ua':
         case 'freud ua':
           message.channel.send("", {file: "https://i.imgur.com/2L0pwmD.png"});
+          break;
         case 'perchta':
           message.channel.send("", {file: "https://i.imgur.com/RtQaJG4.jpg"});
-        case 'shadow miku':
+          break;
+        case 'shadow songstress miku':
         case 'miku black':
           message.channel.send("", {file: "https://i.imgur.com/f1iFRaB.jpg"});
+          break;
         case 'cauchy':
           message.channel.send("", {file: "https://i.imgur.com/25jL9zq.png"});
+          break;
         case 'froid':
         case 'freud':
           message.channel.send("", {file: "https://i.imgur.com/esjj9dM.png"});
+          break;
         case 'ny euclid':
         case 'new year euclid':
           message.channel.send("", {file: "https://i.imgur.com/q1RfyOv.png"});
+          break;
         case 'oda ua':
         case 'nobunaga ua':
         case 'nobunaga oda ua':
         case 'oda nobunaga ua':
           message.channel.send("", {file: "https://i.imgur.com/g6ffmSg.jpg"});
+          break;
         case 'oda':
         case 'nobunaga':
         case 'nobunaga oda':
         case 'oda nobunaga':
           message.channel.send("", {file: "https://i.imgur.com/5w2Wun8.png"});
+          break;
         case 'samhain':
         case 'sam':
           message.channel.send("", {file: "https://i.imgur.com/0FgnlL9.png"});
+          break;
         case 'xmas lupin':
         case 'christmas lupin':
           message.channel.send("", {file: "https://i.imgur.com/tpX4Qmf.png"});
+          break;
         case 'gilgamesh':
         case 'gilg':
           message.channel.send("", {file: "https://i.imgur.com/lqr9U02.png"});
+          break;
         case 'luka miku':
         case 'luka and miku':
           message.channel.send("", {file: "https://i.imgur.com/kKu2B1Y.png"});
+          break;
         case 'holmes':
           message.channel.send("", {file: "https://i.imgur.com/PANrjNO.jpg"});
+          break;
+        case 'valentines maxwell':
+        case 'val maxwell':
+          message.channel.send("", {file: "https://i.imgur.com/J0XocnB.png"});
+          break;
+        case 'valentines lakshmi':
+        case 'val lakshmi':
+          message.channel.send("", {file: "https://i.imgur.com/UjMzVe8.png"});
+          break;
+        case 'valentines degas':
+        case 'val degas':
+          message.channel.send("", {file: "https://i.imgur.com/1rFcAn9.png"});
+          break;
+        case 'valentines fay':
+        case 'val fay':
+          message.channel.send("", {file: "https://i.imgur.com/VnZAc84.png"});
+          break;
+        case 'valentines lucifugus':
+        case 'valentines luci':
+        case 'val lucifugus':
+        case 'val luci':
+          message.channel.send("", {file: "https://i.imgur.com/Vi8qKuP.png"});
+          break;
+        case 'sucre':
+          message.channel.send("", {file: "https://i.imgur.com/FHNCaDn.png"});
+          break;
+        case 'gateau':
+          message.channel.send("", {file: "https://i.imgur.com/FAlI6oj.png"});
+          break;
+        case 'valentines ame':
+        case 'val ame':
+        case 'valentines ame no murakumo':
+        case 'val ame no murakumo':
+          message.channel.send("", {file: "https://i.imgur.com/TZZ4WFm.png"});
+          break;
+        case 'valentines gung':
+        case 'val gung':
+        case 'val gungnir':
+        case 'valentines gungnir':
+          message.channel.send("", {file: "https://i.imgur.com/MUOlaw7.png"});
+          break;
+        case 'valentines gamba':
+        case 'val gamba':
+        case 'valentines gambanteinn':
+        case 'val gambanteinn':
+          message.channel.send("", {file: "https://i.imgur.com/GXck2TT.png"});
+          break;
+        case 'valentines laev':
+        case 'val laev':
+        case 'valentines laevateinn':
+        case 'val laevateinn':
+          message.channel.send("", {file: "https://i.imgur.com/wZ0wacS.png"});
+          break;
+        case 'l\'amoure':
+        case 'lamoure':
+          message.channel.send("", {file: "https://i.imgur.com/IuXPaSA.png"});
+          break;
+        case 'valentines para':
+        case 'valentines paracelsus':
+        case 'val para':
+        case 'val paracelsus':
+          message.channel.send("", {file: "https://i.imgur.com/KcDaS5k.png"});
+          break;
+        case 'valentines sleeping beauty':
+        case 'val sleeping beauty':
+        case 'valentines briar rose':
+        case 'val briar rose':
+          message.channel.send("", {file: "https://i.imgur.com/VS7vTFC.png"});
+          break;
+        case 'valentines d\'artagnan':
+        case 'val d\'artagnan':
+        case 'valentines dartagnan':
+        case 'val dartagnan':
+        case 'valentines dart':
+        case 'val dart':
+          message.channel.send("", {file: "https://i.imgur.com/4gzQt6B.png"});
+          break;
+
+        
+
 
       }
     }

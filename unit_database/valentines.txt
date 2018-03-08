@@ -1,0 +1,209 @@
+"**Colorful Affection Maxwell **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Demon\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 7182 ATK 4511 REC 3149 \n" +
+"__Skill__: Non-red panels to 1 red CBP + hearts, blue, junk to red + chance red bombs(L) drop 1 turn (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + red units gain 70 REC 2 turns\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: 6,000 HP barrier at battle start\n" +
+"__Ability 3__: High boost to own attacks in Valentines 2018 Quests.\n" +
+"__Ability 4__: chance hearts drop as CP(L) when a demon is in front (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Valentines 2018 Hatcher side A"
+
+"**Sweet Love God Lakshmi **\n" +
+"__Cost__: 50 , __Tribe__: Deity\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 5616 ATK 4382 REC 3509 \n" +
+"__Skill__: Yellow, damage, timer panels to CP + ultra ATK boost to all units 2 turns (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy. Ultra effect on Deity units.\n" +
+"__Ability 1__: Virus ineffective\n" +
+"__Ability 2__: Low chance CP drop when a Technical type unit in front\n" +
+"__Ability 3__: Boost to own attacks in Valentines 2018 Quests\n" +
+"__Ability 4__: Boost C Skill damage for Technical types (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Hatcher side A"
+
+"**Sweet Exhibition Degas **\n" +
+"__Cost__: 50 , __Tribe__: Animal\n" +
+"__Type__: Recovery , __Color__: Red\n " +
+"HP 5252 ATK 3413 REC 4966 \n" +
+"__Skill__: Recover 4000 HP (each yellow, blue, junk absorbed adds 500 HP) + animal units gain 2140 ATK, 1 extra tap 2 turns (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy based on own REC\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: reduce 15% of damage taken from Animal enemies\n" +
+"__Ability 3__: boost boost to own attacks in Valentines 2018 Quests\n" +
+"__Ability 4__: -2 skill turns for animal units when a quest begins (20 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Hatcher side A"
+
+"**Crimson Tide Fairy Fay **\n" +
+"__Cost__: 50 , __Tribe__: Unidentified, Fantasy\n" +
+"__Type__: Recovery , __Color__: Red\n " +
+"HP 5616 ATK 3165 REC 4794 \n" +
+"__Skill__: 8 panels to SCP + High boost to red panel rate 2 turns + lower blue panel rate 1 turn (6 turns)\n" +
+"__CSkill__: red units gain 50 REC 2 turns + recover high HP + boost fever gauge\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: when arriving at final floor, recover full HP at end of turn\n" +
+"__Ability 3__: boost to own attacks in Valentines 2018 Quests\n" +
+"__Ability 4__: easy CP spawn for Fantasy units (20 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: A\n" +
+"__Obtainable__: Valentines 2018 Hatcher side A or B"
+
+"**Chain of Attraction Lucifugus **\n" +
+"__Cost__: 50 , __Tribe__: Demon, Fantasy\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6006 ATK 4416 REC 3185 \n" +
+"__Skill__: Green panels to red, damage panels to blue + disables protect + green panels drop as red 1 turn (6 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy. Ultra effect on Green.\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: gain 400 ATK and REC when a technical type is in the party\n" +
+"__Ability 3__: boost to own attacks in Valentines 2018 Quests\n" +
+"__Ability 4__: during fever, demon units get high ATK and REC boost (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Valentines 2018 Hatcher side A or B"
+
+"**Sweet Witch Seduction Sucre **\n" +
+"__Cost__: 45 , __Tribe__: Human, Fantasy\n" +
+"__Type__: Balanced , __Color__: Green\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: 1 SCP(XL). 1 turn fantasy units get 1000 ATK, 1 massive SCP(XL) of current unit can drop (7 turns)\n" +
+"__CSkill__: Massive damage to 1 unit\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: fantasy units get cp shortening (-1) (? bug)\n" +
+"__Ability 3__: fantasy units get 214 ATK and REC (? bug)\n" +
+"__Ability 4__: at the start of the quest, speed up skills of fantasy by 2 (? bug)\n" +
+"__Apples__: ???\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Mystery Girl Trap Quest (Valentines 2018)"
+
+"**Gateau **\n" +
+"__Cost__: ?? , __Tribe__: Fantasy\n" +
+"__Type__: Offense , __Color__: Yellow\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: 4 random SCP(XL). 2 turn yellow units have yellow strengthened (10 turns)\n" +
+"__CSkill__: 4 hits to a unit\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: when she takes damage from an enemy speed up her skill by 1 turn (? bug)\n" +
+"__Ability 3__: at the beginning of each floor speed up her skill by 1 turn (? bug)\n" +
+"__Ability 4__: large boost to her c skill damage (? bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Skillfull Sweets Manager Quest (Valentines 2018)"
+
+"**Ame no Murakumo (Valentine ver.) **\n" +
+"__Cost__: 55 , __Tribe__: Weapon\n" +
+"__Type__: Balanced , __Color__: Green\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: blue to green + 2 turns chance for any units cp(L) to drop (8 turns)\n" +
+"__CSkill__: ultra damage to 1 unit\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: weapons and hero's get 500 ATK and REC\n" +
+"__Ability 3__: if in 1 tap break 15+ chain, boost all unit cp damage\n" +
+"__Ability 4__: at the start of the quest speed up weapon and hero skills by 2 turns\n" +
+"__Apples__: ?\n" +
+"__Rating__: ?\n" +
+"__Obtainable__: Valentines 2018 Ranking exchange"
+
+"**Gungnir (Valentine ver.) **\n" +
+"__Cost__: 55 , __Tribe__: Weapon\n" +
+"__Type__: Offense , __Color__: Blue\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: Green to CP + 3 turns boost own ATK (absorb hearts for mass. boost) + 1 turn, no hearts (5 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: weapons and deity get CP shortening (-2)\n" +
+"__Ability 3__: stamina or recovery unit on team, boost own ATK by 1500\n" +
+"__Ability 4__: on her turn, green and yellow have a chance to drop as large blue bombs\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Ranking exchange"
+
+"**Gambanteinn (Valentines ver.) **\n" +
+"__Cost__: 55 , __Tribe__: Weapon\n" +
+"__Type__: Technical , __Color__: Yellow\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: hearts to CP + 2 turns yellow units get extra tap, yellow and blues have a chance to drop as yellow bombs (7 turns)\n" +
+"__CSkill__: 4 hit large damage regardless of DEF\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: virus ineffective\n" +
+"__Ability 3__: technical units turn, low chance of cp drop\n" +
+"__Ability 4__: technical units turn, chance yellow bombs drop\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Ranking exchange"
+
+"**Lævateinn (Valentines ver.)**\n" +
+"__Cost__: 55 , __Tribe__: Weapon, Demon\n" +
+"__Type__: Stamina , __Color__: Red\n " +
+"HP ? ATK ? REC? \n" +
+"__Skill__: 1 random panel to SCP(XL) + red and junk to cp + 1 turn, yellow and green rate decreased (? turns)\n" +
+"__CSkill__: ultra damage to 1 enemy + 1 turn, demon units get 150 DEF\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: at start of quests, demon and weapons speed up skills by 1\n" +
+"__Ability 3__: demon units turn, low chance of cp drop\n" +
+"__Ability 4__: weapon and demon units get 990 ATK\n" +
+"__Apples__: ???\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Ranking exchange"
+
+"**L'amoure **\n" +
+"__Cost__: 55 , __Tribe__: Fantasy\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: 2 turns, all units get red strengthened panels + 1 turn, no hearts (5 turns)\n" +
+"__CSkill__: two massive damage fixed hits regardless of DEF\n" +
+"__Ability 1__: on her turn, chance for red bomb drop\n" +
+"__Ability 2__: at the beginning of each floor, increase her attack by 5000\n" +
+"__Ability 3__: ultimate damage for Halley challenge\n" +
+"__Ability 4__: at the beginning of each floor add 2 taps to her\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Ranking Hatcher"
+
+"**Paracelsus (Valentine ver) **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Animal\n" +
+"__Type__: Technical , __Color__: Green\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: yellow, damage, timers to green panels + 1 turn, max of 3 own Massive SCP(XL) low chance of dropping (6 turns)\n" +
+"__CSkill__: 3 massive fixed damage hits regardless of DEF\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: on her turn, ultra cp shortening (-6)\n" +
+"__Ability 3__: large damage boost 2018 Valentines quest\n" +
+"__Ability 4__: animal units turn, chance for greens to drop as cp (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Hatcher Side B"
+
+"**Sleeping Beauty (Valentines ver.) **\n" +
+"__Cost__: ? , __Tribe__: Fantasy\n" +
+"__Type__: Offense , __Color__: Green\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: red, yellow and blue panels each become up to 4 CP + 1 turn green units get ultra CP spawn (-6) and 2 taps (? turns)\n" +
+"__CSkill__: massive damage to 1 unit. ultra vs balanced types\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: on her turn, green rate up\n" +
+"__Ability 3__: damage boost 2018 Valentines quest\n" +
+"__Ability 4__: fantasy units get 600 ATL (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: ??\n" +
+"__Obtainable__: Valentines 2018 Hatcher Side B"
+
+"**D'artagnan (Valentine ver.) **\n" +
+"__Cost__: ? , __Tribe__: Hero\n" +
+"__Type__: Recovery , __Color__: Green\n " +
+"HP ? ATK ? REC ? \n" +
+"__Skill__: 2 turns, all units REC boost (absorb red, hearts for mass. boost), 1 tap, a total of 14 SCP will drop from any unit (7 turns)\n" +
+"__CSkill__: ultra damage to 1 unit based on REC + 2 turns, boost own REC by 100\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: bomb blast enhance\n" +
+"__Ability 3__: damage boost Valentines 2018\n" +
+"__Ability 4__: start of quest, speed up hero unit skills by 2 (20 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Hatcher Side B"
