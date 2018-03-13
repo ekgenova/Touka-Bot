@@ -1,0 +1,13 @@
+"**Brazen Beautiful Star Adonis **\n" +
+"__Cost__: 45 , __Tribe__: Guardian, Demon\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 5403 ATK 3886 REC 2322 \n" +
+"__Skill__: Boost Demon, Guardian ATK by 800, DEF/REC by 600 for 6 turns (6 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: at start of quest, reduce own skill turns by 3 (20 bug)\n" +
+"__Ability 3__: boost demon and guardian cp spawn (40 bug)\n" +
+"__Ability 4__: bomb blast radius low boost when demon or guardian in front(60 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Raid "

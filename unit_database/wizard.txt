@@ -1,0 +1,75 @@
+"**Sovereign Rook Arthur (UA) **\n" +
+"__Cost__: 45 , __Tribe__: Human, Hero\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 5978 ATK 4435 REC 3083 \n" +
+"__Skill__: Up to 12 green panels to CP(L) + boost red ATK 3 turns (absorb yellow, blue for boost (8 turns))\n" +
+"__CSkill__: damage to 1 enemy (high effect against Dragons) + recover HP\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: add 700 ATK to Hero units (30 bugs)\n" +
+"__Apples__: red\n" +
+"__Rating__: C\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Vile Bishop Arthur **\n" +
+"__Cost__: 45 , __Tribe__: Human\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6091 ATK 3744 REC 2951 \n" +
+"__Skill__: Convert green to red + destroy blue except CP to damage enemies + easy CP spawn (massive) 1 turn (10 turns)\n" +
+"__CSkill__: High damage to 1 enemy. Ultra effect on Humans\n" +
+"__Apples__: red\n" +
+"__Rating__: E\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Planetary Shaper Uranus **\n" +
+"__Cost__: 45 , __Tribe__: Deity, Unidentified\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 5184 ATK 3877 REC 2834 \n" +
+"__Skill__: High enhancement to existing CP + massive boost to red unit ATK, REC for 2 turns (8 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy. Ultra effect against Green\n" +
+"__Ability 1__: when in front, chain 12 panels in 1 tap for own ATK boost (once per turn) (30 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Songoku, Majesty of Mt. Huaguo **\n" +
+"__Cost__: 45 , __Tribe__: Animal\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 5400 ATK 5802 REC 2064 \n" +
+"__Skill__: Convert 2 random panels to SCP + for 3 turns, boost own ATK (absorb hearts for boost) (7 turns)\n" +
+"__CSkill__: High damage to 1 enemy + medium damage to all enemies\n" +
+"__Ability 1__: damage panel break (30 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Son Goku UA (not on Global) **\n" +
+"__Cost__: 45 , __Tribe__: Unidentified, Hero\n" +
+"__Type__: Offense , __Color__: \n " +
+"HP 5970 ATK 5812 REC 1696 \n" +
+"__Skill__: Convert 1 panel to SCP(L) + 3 turns, ultra ATK boost (absorb timers, blue for boost) (7 turns)\n" +
+"__CSkill__: massive damage to 1 enemy + massive damage to all enemies\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: timer panel break (bug 30)\n" +
+"__Apples__: red\n" +
+"__Rating__: C\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Shingen Takeda, Calm Daredevil **\n" +
+"__Cost__: 45 , __Tribe__: Human, Samurai\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 6334 ATK 5028 REC 1876 \n" +
+"__Skill__: Massive damage to 1 enemy (ultra effect against counters) + ultra counter for 3 turns (12 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Wizard Quest"
+
+"**Tempering King Louis XVI **\n" +
+"__Cost__: 45 , __Tribe__: Human\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6122 ATK 4013 REC 3083 \n" +
+"__Skill__: Convert junk panels to red bombs + convert up to 2 random panels to SCP (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + low boost red unit REC for 2 turns\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Wizard Quest"

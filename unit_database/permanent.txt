@@ -8,3 +8,80 @@
 "__Apples__: red\n" +
 "__Rating__: A+\n" +
 "__Obtainable__: Permanent (any hatcher)"
+
+"**Roaring Flamer Belial (UA) **\n" +
+"__Cost__: 45 , __Tribe__: Demon\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 6930 ATK 5333 REC 2029 \n" +
+"__Skill__: Ultra red damage to 1 enemy + boost to ATK for 3 turns (absorb green for boost) (8 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Ability 1__: boost own ATK when fever gauge is at 50% or more\n" +
+"__Ability 2__: junk break\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Breakneck Daredevil Belial **\n" +
+"__Cost__: 45 , __Tribe__: Deity\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 6221 ATK 5131 REC 1885 \n" +
+"__Skill__: Deal massive red damage to 1 enemy + boost ATK for 3 turns (absorb green panels for boost) (10 turns)\n" +
+"__CSkill__: massive damage to all enemies\n" +
+"__Apples__: red\n" +
+"__Rating__: E\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Divine Immolation Fenrir **\n" +
+"__Cost__: 45 , __Tribe__: Animal, Fantasy\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 5880 ATK 5110 REC 2520 \n" +
+"__Skill__: Convert yellow to red + for red units, add tap, ATK ultra boost, REC high boost 3 turns (8 turns)\n" +
+"__CSkill__: high damage to 1 enemy (massive against Animals)\n" +
+"__Ability 1__: junk break\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Burning Assault God Ymir **\n" +
+"__Cost__: 50 , __Tribe__: Mech\n" +
+"__Type__: Stamina , __Color__: Red\n " +
+"HP 8784 ATK 3902 REC 2100 \n" +
+"__Skill__: Restore 7,500 HP + hearts to red bombs + reduce preceeding unit skill by 1 + massive counter 2 turns (7 turns)\n" +
+"__CSkill__: massive damage to 1 enemy\n" +
+"__Ability 1__: damage panel break\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Furious Flame Prometheus **\n" +
+"__Cost__: 45 , __Tribe__: Deity\n" +
+"__Type__: Stamina , __Color__: Red\n " +
+"HP 9722 ATK 4221 REC 1826 \n" +
+"__Skill__: Remove counters + massive damage to 1 enemy (ultra effect if no counters) + 3 turns reduce enemy DEF to 0 (6 turns)\n" +
+"__CSkill__: High damage to 1 enemy + high effect against green\n" +
+"__Ability 1__: junk break\n" +
+"__Apples__: red or can green\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Kurumi, the Raving Cat **\n" +
+"__Cost__: 50 , __Tribe__: Unidentified, Animal\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 6448 ATK 5185 REC 2027 \n" +
+"__Skill__: Disable counters + high damage to 1 enemy (mass effect if no counters) + 4 panels to bombs (L) + ATK mass. boost 3 turns (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Ability 1__: blast reduction ineffective\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"
+
+"**Graceful Crane Hazuru **\n" +
+"__Cost__: 50 , __Tribe__: Animal\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6650 ATK 4376 REC 3153 \n" +
+"__Skill__: Massive boost to red unit ATK/REC and easy CP spawn (super) for 3 turns (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy. Ultra effect against Humans\n" +
+"__Ability 1__: Recover 20% of total party HP at end of first turn on all floors\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Permanent (any hatcher)"

@@ -207,3 +207,17 @@
 "__Apples__: blue\n" +
 "__Rating__: ???\n" +
 "__Obtainable__: Valentines 2018 Hatcher Side B"
+
+"**Heartfelt Words Sei Shōnagon **\n" +
+"__Cost__: 50 , __Tribe__: Human\n" +
+"__Type__: Balanced , __Color__: Green\n " +
+"HP 6855 ATK 3632 REC 3512 \n" +
+"__Skill__: Recover 10,000 HP + yellow, blue, to green + lower yellow, blue panel rate 2  turns (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy based on own REC + massive damage to 1 enemy\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: human units gain 350 ATK and REC\n" +
+"__Ability 3__: damage boost Valentines 2018\n" +
+"__Ability 4__: at start of quest, reduce own skill turn by 3 (20 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: ???\n" +
+"__Obtainable__: Valentines 2018 Hatcher Side B"

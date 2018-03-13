@@ -10,3 +10,38 @@
 "__Apples__: red (can blue)\n" +
 "__Rating__: S\n" +
 "__Obtainable__: King of Fighters collaboration hatcher"
+
+"**KOF '95 Old-School Kyo' **\n" +
+"__Cost__: 45 , __Tribe__: Human, Unidentified\n" +
+"__Type__: Stamina , __Color__: Red\n " +
+"HP 9595 ATK 2995 REC 1995 \n" +
+"__Skill__: Convert non-red panels to up to 9 Crash Panels (L) and up to 5 red bombs (L) (9 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy based on own max HP\n" +
+"__Ability 1__: damage panel break\n" +
+"__Apples__: green\n" +
+"__Rating__: D\n" +
+"__Obtainable__: King of Fighters Collaboration Quest"
+
+"**Innocent Kaleidoscope Chris **\n" +
+"__Cost__: 45 , __Tribe__: Orochi\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 5810 ATK 3999 REC 3519 \n" +
+"__Skill__: Convert up to 14 panels to red bombs + lower yellow, blue, heart rate 1 turn (6 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy + ultra damage to all enemies\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: when any unit breaks over 12 bombs in 1 turn, recover 1200 HP at end of turn (50 bug)\n" +
+"__Apples__: blue or red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: King of Fighters Collaboration Quest"
+
+"**Orochi Chris (UA) **\n" +
+"__Cost__: 45 , __Tribe__: Orochi\n" +
+"__Type__: Offense , __Color__: Red\n " +
+"HP 5810 ATK 5519 REC 1900 \n" +
+"__Skill__: Bombs to CP + absorb green, blue, damage panels for 99,999 damage to 1 enemy + party extra tap 2 turns (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: when in front, low chance blue panels drop as red bombs (50 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: B\n" +
+"__Obtainable__: King of Fighters Collaboration Quest"

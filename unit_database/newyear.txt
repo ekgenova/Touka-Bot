@@ -24,3 +24,15 @@
 "__Apples__: red\n" +
 "__Rating__: S\n" +
 "__Obtainable__: New Year Dream 2018 Hatcher"
+
+"**Maiden Flight Totori **\n" +
+"__Cost__: 45 , __Tribe__: Anima, Deity\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6017 ATK 4017 REC 2017 \n" +
+"__Skill__: Convert blue to hearts + 3 turn animal and unidentified units 1 extra tap (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: when in front, connecting 17 or more panels in 1 tap boost REC by 2017 (once per turn)(60 bug)\n" +
+"__Apples__: blue \n" +
+"__Rating__: D\n" +
+"__Obtainable__: New Year Special Quest 2017"

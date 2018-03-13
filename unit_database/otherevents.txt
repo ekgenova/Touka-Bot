@@ -1,0 +1,28 @@
+//Link
+
+"**Red Guardian Suzaku **\n" +
+"__Cost__: 35 , __Tribe__: Animal, Deity\n" +
+"__Type__: Recovery , __Color__: Red\n " +
+"HP 5448 ATK 2851 REC 3729 \n" +
+"__Skill__: Convert 1 panel to SCP(L) + blue to hearts + green to yellow + reduce enemy DEF to 0 for 2 turns (8 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy based on own REC + HP recovery\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: weaken attacks from green enemies by 8% (30 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: D\n" +
+"__Obtainable__: Link hatcher"
+
+
+//8 Million Downloads Commemorative EVENT
+
+"**Evil Executor Hellraiser **\n" +
+"__Cost__: 45 , __Tribe__: Mech, Demon\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 5135 ATK 3981 REC 2917 \n" +
+"__Skill__: Up to 10 non-red panels to bombs + red easy CP spawn (high), technical type protect break and easy CP spawn (ultra) 1 turn\n" +
+"__CSkill__: Massive damage to 1 enemy + Boost Red unit REC 1 turn\n" +
+"__Ability 1__: On final floor, at the end of each turn restore 5% of total HP to party\n" +
+"__Ability 2__: Boost Technical type ATK by 700\n" +
+"__Apples__: red\n" +
+"__Rating__: D\n" +
+"__Obtainable__: 8 Million Downloads Event Quest"
