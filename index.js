@@ -1924,7 +1924,128 @@ bot.on('message', (message) => {
       case 'chris':
         message.channel.send("", {file: "https://i.imgur.com/foioZRD.jpg"});
         break;
-
       }
     }
-  });
+
+    if (command == ">bugmax"){
+
+      //Looking for first argument "GIMMICK" - protect, junk, damage, virus, bomb, skill, timer, hacking
+      //PROTECT
+      switch (argsFinal){
+
+
+          case 'protect red':
+            message.channel.send("", {file: "https://i.imgur.com/1NQ5VkP.png"});
+            break;
+          case 'protect blue':
+            message.channel.send("", {file: "https://i.imgur.com/wduvo10.png"});
+            break;
+          case 'protect yellow':
+            message.channel.send("", {file: "https://i.imgur.com/8bO7bm8.png"});
+            break;
+          case 'protect green':
+            message.channel.send("", {file: "https://i.imgur.com/7A3Rzgh.png"});
+            break;
+
+
+            message.channel.send("", {file: "https://i.imgur.com/AgjzMou.png"});
+            break;
+          case 'junk blue':
+            message.channel.send("", {file: "https://i.imgur.com/16y9Vli.png"});
+            break;
+          case 'junk yellow':
+            message.channel.send("", {file: "https://i.imgur.com/hagjDN5.png"});
+            break;
+          case 'junk green':
+            message.channel.send("", {file: "https://i.imgur.com/OEIkgvG.png"});
+            break;
+
+          case 'damage red':
+            message.channel.send("", {file: "https://i.imgur.com/XdEp6d2.png"});
+            break;
+          case 'damage blue':
+            message.channel.send("", {file: "https://i.imgur.com/GqKf1c0.png"});
+            break;
+          case 'damage yellow':
+            message.channel.send("", {file: "https://i.imgur.com/UZDK5WD.png"});
+            break;
+          case 'damage green':
+            message.channel.send("", {file: "https://i.imgur.com/C8TT8ei.png"});
+            break;
+
+
+          case 'virus red':
+            message.channel.send("", {file: "https://i.imgur.com/AETOlq7.png"});
+            break;
+          case 'virus blue':
+            message.channel.send("", {file: "https://i.imgur.com/YAm7O13.png"});
+            break;
+          case 'virus yellow':
+            message.channel.send("", {file: "https://i.imgur.com/GnVaqD2.png"});
+            break;
+          case 'virus green':
+            message.channel.send("", {file: "https://i.imgur.com/LhcqzNN.png"});
+            break;
+          case 'bomb red':
+          case 'blast reduction red':
+            message.channel.send("", {file: "https://i.imgur.com/0HLd00Y.png"});
+            break;
+          case 'bomb blue':
+          case 'blast reduction blue':
+            message.channel.send("", {file: "https://i.imgur.com/9wt8fv0.png"});
+            break;
+          case 'bomb yellow':
+          case 'blast reduction yellow':
+            message.channel.send("", {file: "https://i.imgur.com/OcKTf4D.png"});
+            break;
+          case 'bomb green':
+          case 'blast reduction green':
+            message.channel.send("", {file: "https://i.imgur.com/mVdwcRA.png"});
+            break;
+          case 'skill bind red':
+          case 'skill red':
+            message.channel.send("", {file: "https://i.imgur.com/9ODHCy3.png"});
+            break;
+          case 'skill blue':
+          case 'skill bind blue':
+            message.channel.send("", {file: "https://i.imgur.com/ws6qTw4.png"});
+            break;
+          case 'skill bind yellow':
+          case 'skill yellow':
+            message.channel.send("", {file: "https://i.imgur.com/IzBB5sp.png"});
+            break;
+          case 'skill bind green':
+          case 'skill green':
+            message.channel.send("", {file: "https://i.imgur.com/peF0t3A.png"});
+            break;
+          case 'timer red':
+          case 'timers red':
+            message.channel.send("", {file: "https://i.imgur.com/pmNKWeS.png"});
+            break;
+          case 'timer blue':
+          case 'timers blue':
+            message.channel.send("", {file: "https://i.imgur.com/hrBSHcL.png"});
+            break;
+          case 'timer yellow':
+          case 'timers yellow':
+            message.channel.send("", {file: "https://i.imgur.com/9J0sZDp.png"});
+            break;
+          case 'timer green':
+          case 'timers green':
+            message.channel.send("", {file: "https://i.imgur.com/tlLKYnk.png"});
+            break;
+          case 'hacking red':
+            message.channel.send("", {file: "https://i.imgur.com/uGRcjhI.png"});
+            break;
+          case 'hacking blue':
+            message.channel.send("", {file: "https://i.imgur.com/ix7Kzk0.png"});
+            break;
+          case 'hacking yellow':
+            message.channel.send("", {file: "No units yet ~ <:touka:419557503085445120> "});
+            break;
+          case 'hacking green':
+            message.channel.send("", {file: "No units yet ~ <:touka:419557503085445120>"});
+            break;
+    }
+  }
+});

@@ -1,6 +1,6 @@
 {
   "name": "touka-bot-cf101",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Crash Fever bot designed to help players with unit info and regular the CF101 discord channel",
   "dependencies": {
     "discord.js": "^11.3.0"
