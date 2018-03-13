@@ -550,27 +550,27 @@ bot.on('message', (message) => {
         "__Skill__: 1 SCP(XL). 1 turn fantasy units get 1000 ATK, 1 massive SCP(XL) of current unit can drop (7 turns)\n" +
         "__CSkill__: Massive damage to 1 unit\n" +
         "__Ability 1__: junk break\n" +
-        "__Ability 2__: fantasy units get cp shortening (-1) (? bug)\n" +
-        "__Ability 3__: fantasy units get 214 ATK and REC (? bug)\n" +
-        "__Ability 4__: at the start of the quest, speed up skills of fantasy by 2 (? bug)\n" +
+        "__Ability 2__: fantasy units get cp shortening (-1) (20 bug)\n" +
+        "__Ability 3__: fantasy units get 214 ATK and REC (40 bug)\n" +
+        "__Ability 4__: at the start of the quest, speed up skills of fantasy by 2 (60 bug)\n" +
         "__Apples__: ???\n" +
         "__Rating__: ???\n" +
         "__Obtainable__: Mystery Girl Trap Quest (Valentines 2018)");
         break;
 
       case 'gateau':
-        message.channel.send("**Gateau **\n" +
-        "__Cost__: ?? , __Tribe__: Fantasy\n" +
+        message.channel.send("**Powerful Glorious Gateau **\n" +
+        "__Cost__: 50 , __Tribe__: Fantasy\n" +
         "__Type__: Offense , __Color__: Yellow\n " +
-        "HP ? ATK ? REC ? \n" +
+        "HP 6370 ATK 6077 REC 1539 \n" +
         "__Skill__: 4 random SCP(XL). 2 turn yellow units have yellow strengthened (10 turns)\n" +
         "__CSkill__: 4 hits to a unit\n" +
         "__Ability 1__: junk break\n" +
-        "__Ability 2__: when she takes damage from an enemy speed up her skill by 1 turn (? bug)\n" +
-        "__Ability 3__: at the beginning of each floor speed up her skill by 1 turn (? bug)\n" +
-        "__Ability 4__: large boost to her c skill damage (? bug)\n" +
+        "__Ability 2__: when she takes damage from an enemy speed up her skill by 1 turn (20 bug)\n" +
+        "__Ability 3__: at the beginning of each floor speed up her skill by 1 turn (40 bug)\n" +
+        "__Ability 4__: large boost to her c skill damage (60 bug)\n" +
         "__Apples__: red\n" +
-        "__Rating__: ???\n" +
+        "__Rating__: S\n" +
         "__Obtainable__: Skillfull Sweets Manager Quest (Valentines 2018)");
         break;
 
@@ -578,17 +578,17 @@ bot.on('message', (message) => {
       case 'val ame':
       case 'valentines ame no murakumo':
       case 'val ame no murakumo':
-        message.channel.send("**Ame no Murakumo (Valentine ver.) **\n" +
+        message.channel.send("**Dragon Soul Ame no Murakumo (Valentine ver.) **\n" +
         "__Cost__: 55 , __Tribe__: Weapon\n" +
         "__Type__: Balanced , __Color__: Green\n " +
-        "HP ? ATK ? REC ? \n" +
+        "HP 7069 ATK 4116 REC 2660 \n" +
         "__Skill__: blue to green + 2 turns chance for any units cp(L) to drop (8 turns)\n" +
         "__CSkill__: ultra damage to 1 unit\n" +
         "__Ability 1__: protect break\n" +
         "__Ability 2__: weapons and hero's get 500 ATK and REC\n" +
         "__Ability 3__: if in 1 tap break 15+ chain, boost all unit cp damage\n" +
         "__Ability 4__: at the start of the quest speed up weapon and hero skills by 2 turns\n" +
-        "__Apples__: ?\n" +
+        "__Apples__: red\n" +
         "__Rating__: ?\n" +
         "__Obtainable__: Valentines 2018 Ranking exchange");
         break;
@@ -597,10 +597,10 @@ bot.on('message', (message) => {
       case 'valentines gung':
       case 'val gung':
       case 'val gungnir':
-        message.channel.send("**Gungnir (Valentine ver.) **\n" +
+        message.channel.send("**Heartpiercer Gungnir (Valentine ver.) **\n" +
         "__Cost__: 55 , __Tribe__: Weapon\n" +
         "__Type__: Offense , __Color__: Blue\n " +
-        "HP ? ATK ? REC ? \n" +
+        "HP 6930 ATK 6022 REC 1435 \n" +
         "__Skill__: Green to CP + 3 turns boost own ATK (absorb hearts for mass. boost) + 1 turn, no hearts (5 turns)\n" +
         "__CSkill__: Ultra damage to 1 enemy\n" +
         "__Ability 1__: junk break\n" +
@@ -616,10 +616,10 @@ bot.on('message', (message) => {
       case 'valentines gambanteinn':
       case 'val gamba':
       case 'val gambanteinn':
-        message.channel.send("**Gambanteinn (Valentines ver.) **\n" +
+        message.channel.send("**Staff of Love Gambanteinn (Valentines ver.) **\n" +
         "__Cost__: 55 , __Tribe__: Weapon\n" +
         "__Type__: Technical , __Color__: Yellow\n " +
-        "HP ? ATK ? REC ? \n" +
+        "HP 6174 ATK 4009 REC 3500 \n" +
         "__Skill__: hearts to CP + 2 turns yellow units get extra tap, yellow and blues have a chance to drop as yellow bombs (7 turns)\n" +
         "__CSkill__: 4 hit large damage regardless of DEF\n" +
         "__Ability 1__: damage panel break\n" +
@@ -635,32 +635,32 @@ bot.on('message', (message) => {
       case 'val laev':
       case 'valentines laevateinn':
       case 'val laevateinn':
-        message.channel.send("**Lævateinn (Valentines ver.)**\n" +
+        message.channel.send("**Seal Breaker Blade Lævateinn (Valentines ver.)**\n" +
         "__Cost__: 55 , __Tribe__: Weapon, Demon\n" +
         "__Type__: Stamina , __Color__: Red\n " +
-        "HP ? ATK ? REC? \n" +
+        "HP 9643 ATK 4006 REC 2161 \n" +
         "__Skill__: 1 random panel to SCP(XL) + red and junk to cp + 1 turn, yellow and green rate decreased (? turns)\n" +
         "__CSkill__: ultra damage to 1 enemy + 1 turn, demon units get 150 DEF\n" +
         "__Ability 1__: protect break\n" +
         "__Ability 2__: at start of quests, demon and weapons speed up skills by 1\n" +
         "__Ability 3__: demon units turn, low chance of cp drop\n" +
         "__Ability 4__: weapon and demon units get 990 ATK\n" +
-        "__Apples__: ???\n" +
+        "__Apples__: red\n" +
         "__Rating__: ???\n" +
         "__Obtainable__: Valentines 2018 Ranking exchange");
         break;
 
       case 'lamoure':
       case 'l\'amoure':
-        message.channel.send("**L'amoure **\n" +
+        message.channel.send("**Artisan of the Heart L'amoure **\n" +
         "__Cost__: 55 , __Tribe__: Fantasy\n" +
         "__Type__: Technical , __Color__: Red\n " +
-        "HP ? ATK ? REC ? \n" +
+        "HP 6930 ATK 5398 REC 2161 \n" +
         "__Skill__: 2 turns, all units get red strengthened panels + 1 turn, no hearts (5 turns)\n" +
         "__CSkill__: two massive damage fixed hits regardless of DEF\n" +
-        "__Ability 1__: on her turn, chance for red bomb drop\n" +
-        "__Ability 2__: at the beginning of each floor, increase her attack by 5000\n" +
-        "__Ability 3__: ultimate damage for Halley challenge\n" +
+        "__Ability 1__: when in front, chance for red bomb drop\n" +
+        "__Ability 2__: at the beginning of each floor, increase own attack by 5000\n" +
+        "__Ability 3__: ultimate damage boost in Halley challenge\n" +
         "__Ability 4__: at the beginning of each floor add 2 taps to her\n" +
         "__Apples__: red\n" +
         "__Rating__: ???\n" +

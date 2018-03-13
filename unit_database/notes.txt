@@ -19,10 +19,6 @@ Adonis
 
 
 UNIT INFO UPDATES:
-Sucre
-Gateau
-val ame
-val Gungnir
-l'amoure
-val laev
-val gamba
+cornet
+fondue
+praline
