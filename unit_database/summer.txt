@@ -1,0 +1,139 @@
+"**Evening Summer Maiden Swan **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Fantasy\n" +
+"__Type__: Technical , __Color__: Red\n " +
+"HP 7245 ATK 5436 REC 2778 \n" +
+"__Skill__: Left side to CP, right side to hearts + all units gain 2 taps, no hearts, yellow panels 1 turn (6 turns)\n" +
+"__CSkill__: Immeense damage to 1 enemy\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: virus ineffective\n" +
+"__Ability 3__: 1 red CBP drops when in front (10 bug)\n" +
+"__Ability 4__: 15,000 HP barrier at quest start. Does not regen. (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side A or Side B"
+
+"**Heat Wave of Love Morse **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
+"__Type__: Balanced , __Color__: Green\n " +
+"HP 6426 ATK 4322 REC 3500 \n" +
+"__Skill__: Hearts to CP + Green unit DEF boost (absorb red, yellow, junk), chance hearts drop as preceeding unit CP 2 turns. (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: destroy at least 15 CP in 1 turn for 1 tap to green units\n" +
+"__Ability 3__: high boost to power of own attacks in Seaside whistle and Summer goddess.\n" +
+"__Ability 4__: while unidentified unit in front, 1 SCP drops (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side A"
+
+"**Deep Blue Paradox Hempel **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Animal\n" +
+"__Type__: Technical , __Color__: Green\n " +
+"HP 7069 ATK 5186 REC 2835 \n" +
+"__Skill__: Convert 9 non-green panels to CP + green to CP + green ATK boost for 2 turns (absorb red, blue for boost) (6 turns)\n" +
+"__CSkill__: Immense damage to all enemies + ultra damage to all enemies\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: boost green panel when in front\n" +
+"__Ability 3__: high boost to power of own attacks in Seaside whistle and Summer goddess.\n" +
+"__Ability 4__: C Skill damage boost to Animal units (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side A"
+
+"**Magnetic Summer Break Dirac **\n" +
+"__Cost__: 55 , __Tribe__: Academic\n" +
+"__Type__: Recovery , __Color__: Red\n " +
+"HP 6160 ATK 3676 REC 4627 \n" +
+"__Skill__: Convert 1 panel to red CBP + hearts to red panels + chance CP for self, red bombs drop 1 turn (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy based on own REC + recover HP\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: when HP is below 70%, all units gain 720 REC\n" +
+"__Ability 3__: high boost to power of own attacks in Seaside whistle and Summer goddess.\n" +
+"__Ability 4__: when in front and Fever gauge is at 50% +, no blue panels drop (20 bug)\n" +
+"__Apples__: blue\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side A"
+
+"**Observational Red Tide Hubble **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Human\n" +
+"__Type__: Balanced , __Color__: Red\n " +
+"HP 6650 ATK 4884 REC 4013 \n" +
+"__Skill__: Convert center to 3 SCP(L) + yellow, blue to heart bombs + boost party DEF/REC by 1200 for 3 turns (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: when fever gauge is below 85%, all units get easy CP spawn\n" +
+"__Ability 3__: high boost to power of own attacks in Seaside whistle and Summer goddess.\n" +
+"__Ability 4__: destroy at least 120 panels in 1 turn to give all units 1 tap (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: A+\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side A"
+
+"**Wave Riding Euler **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Human\n" +
+"__Type__: Balanced , __Color__: Blue\n " +
+"HP 7119 ATK 4770 REC 3672 \n" +
+"__Skill__: Convert red/hearts to blue bombs + blue unit ATK high boost 1 turn, drop red as blue bombs, reduce heart rate (7 turns)\n" +
+"__CSkill__: High damage to all enemies + massive damage to 1 enemy\n" +
+"__Ability 1__: enhance bomb blast when in front\n" +
+"__Ability 2__: damage panel break\n" +
+"__Ability 3__: break 15+ bombs in 1 turn got party 1500 ATK boost (10 bug)\n" +
+"__Ability 4__: when in front, destroy damage panel for 1 extra tap\n" +
+"__Apples__: red\n" +
+"__Rating__: A\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side B"
+
+"**Mysterious Waters Mobius **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
+"__Type__: Balanced , __Color__: Blue\n " +
+"HP 6979 ATK 4647 REC 3973 \n" +
+"__Skill__: Up to 14 panels to CP + high ATK, REC, DEF boost for Mech, Animal, Unidentified, Weapon units and Offense types 2 turns (5 turns)\n" +
+"__CSkill__: 4 hit red, green, blue, yellow damage to 1 enemy + low HP recovery\n" +
+"__Ability 1__: damage panel break\n" +
+"__Ability 2__: chance of dropping blue panels as blue bombs when in front\n" +
+"__Ability 3__: 15,000 HP barrier on final floor (10 bug)\n" +
+"__Ability 4__: C Skill damage boost to Mech units (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: S\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side B"
+
+"**Charming Splash Faraday **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Human\n" +
+"__Type__: Balanced , __Color__: Blue\n " +
+"HP 7292 ATK 4620 REC 3330 \n" +
+"__Skill__: red panels to blue bombs + chance front unit CP drops, all unit ultra ATK boost 1 turn (7 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy\n" +
+"__Ability 1__: protect break\n" +
+"__Ability 2__: when in front, destroy 30 panels+ during turn to boost ATK\n" +
+"__Ability 3__: when in front, drop 1 blue bomb (XL) (10 bug)\n" +
+"__Ability 4__: C Skill damage boost to Human units (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side B"
+
+"**Water's Edge Banquet Froid **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Mech\n" +
+"__Type__: Balanced , __Color__: Blue\n " +
+"HP 6713 ATK 4721 REC 3142 \n" +
+"__Skill__: Up to 1 panel to SCP(L), up to 1 to Bomb (L) + chance of 5 color bombs (L) 1 turn + damage 33% lower 2 turns (7 turns)\n" +
+"__CSkill__: Massive damage to 1 enemy. Ultra effect against Deities. \n" +
+"__Ability 1__: junk break\n" +
+"__Ability 2__: boost blue panel rate when in front\n" +
+"__Ability 3__: when in front, 3 SCP drop (10 bug)\n" +
+"__Ability 4__: when in front, break 50 panels in 1 turn to boost ATK by 2610 (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS (10 bugs), S (less than 10 bugs)\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side B"
+
+"**Sea Dweller Schrödinger **\n" +
+"__Cost__: 55 , __Tribe__: Academic, Animal\n" +
+"__Type__: Balanced , __Color__: Blue\n " +
+"HP 6860 ATK 4712 REC 3149 \n" +
+"__Skill__: Red panels to blue bombs + party easy CP spawn (immense), lower red rate 2 turns (6 turns)\n" +
+"__CSkill__: Ultra damage to 1 enemy + recover low HP\n" +
+"__Ability 1__: virus ineffective\n" +
+"__Ability 2__: junk break\n" +
+"__Ability 3__: when Animal unit is in front, chance green, blue drop as blue bombs (10 bug)\n" +
+"__Ability 4__: animal units gain 400 ATK and REC (20 bug)\n" +
+"__Apples__: red\n" +
+"__Rating__: SS\n" +
+"__Obtainable__: Fever on the Beach Event Hatcher Side B"

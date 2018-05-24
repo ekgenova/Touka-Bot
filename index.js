@@ -43,12 +43,35 @@ bot.on('message', (message) => {
   else if (command == ">commands"){
     console.log(`Message sent by ${message.author.username}. Message: ${message.content}`);
 
-    message.channel.send("**Command list:** \n WIP");
+    message.channel.send("**Command list:** \n >unit name (e.g. >unit morse) to get the info about a unit (WIP, units still being added)\n" +
+    ">pic name (e.g. >pic morse) to get a picture of a unit (WIP) \n" + ">bugmax gimmicks color (e.g. >bugmax junk red) to get farmable units with certain abilities. \n" +
+    "If you have any suggestions for future bot commands you want to see let us know!"
+  );
     }
 
+  else if (command == ">joinlfg"){
+    if (message.member.roles.find("name", "LFG")){
+      message.channel.send("You already have that role! :3")
+    }
+    else {
+      let member = message.member;
+      member.addRole(433213065551544330).catch(console.error);
+    }
+  }
 
-  if (command == ">unit"){
-    console.log(`Message sent by ${message.author.username}. Message: ${message.content}`);
+  else if (command == ">leavelfg"){
+    if (message.member.roles.find("name", "LFG")){
+      let member = message.member;
+      member.removeRole(433213065551544330).catch(console.error);
+    }
+    else {
+      message.channel.send("You are not in LFG already~");
+    }
+  }
+
+
+  else if (command == ">unit"){
+    console.log(`Message sent by ${message.author.username}. Message: ${message.content}.`);
 
     switch (argsFinal) {
       //FESTIVAL UNITS
@@ -155,6 +178,7 @@ bot.on('message', (message) => {
         "__Apples__: red\n" +
         "__Rating__: S\n" +
         "__Obtainable__: Fever Festival");
+
 
       case 'froid':
       case 'freud':
@@ -306,7 +330,6 @@ bot.on('message', (message) => {
       //
       //
 
-      case 'summer':
       case 'summer zheng':
       case 'summer cheng':
       case 'summer zheng cheng':
@@ -314,36 +337,64 @@ bot.on('message', (message) => {
       case 'summer zheng chenggong':
         message.channel.send();
 
-      case 'summer':
       case 'summer dirac':
         message.channel.send();
 
-      case 'summer':
       case 'summer hubble':
         message.channel.send();
 
-      case 'summer':
       case 'summer iza':
       case 'summer izanami':
         message.channel.send();
 
-      case 'summer':
       case 'summer guan':
       case 'summer guan yu':
         message.channel.send();
         break;
 
-      case 'summer':
       case 'summer lan':
       case 'summer lan caihe':
         message.channel.send();
         break;
 
-      case 'summer':
       case 'summer qilin':
       case 'summer kirin':
         message.channel.send();
         break;
+
+      case 'summer swan':
+        message.channel.send("**Evening Summer Maiden Swan **\n" +
+        "__Cost__: 55 , __Tribe__: Academic, Fantasy\n" +
+        "__Type__: Technical , __Color__: Red\n " +
+        "HP 7245 ATK 5436 REC 2778 \n" +
+        "__Skill__: Left side to CP, right side to hearts + all units gain 2 taps, no hearts, yellow panels 1 turn (6 turns)\n" +
+        "__CSkill__: Immeense damage to 1 enemy\n" +
+        "__Ability 1__: damage panel break\n" +
+        "__Ability 2__: virus ineffective\n" +
+        "__Ability 3__: 1 red CBP drops when in front (10 bug)\n" +
+        "__Ability 4__: 15,000 HP barrier at quest start. Does not regen. (20 bug)\n" +
+        "__Apples__: red\n" +
+        "__Rating__: SS\n" +
+        "__Obtainable__: Fever on the Beach Event Hatcher Side A");
+        break;
+
+      case 'summer morse':
+        message.channel.send("**Heat Wave of Love Morse **\n" +
+        "__Cost__: 55 , __Tribe__: Academic, Unidentified\n" +
+        "__Type__: Balanced , __Color__: Green\n " +
+        "HP 6426 ATK 4322 REC 3500 \n" +
+        "__Skill__: Hearts to CP + Green unit DEF boost (absorb red, yellow, junk), chance hearts drop as preceeding unit CP 2 turns. (7 turns)\n" +
+        "__CSkill__: Ultra damage to 1 enemy\n" +
+        "__Ability 1__: virus ineffective\n" +
+        "__Ability 2__: destroy at least 15 CP in 1 turn for 1 tap to green units\n" +
+        "__Ability 3__: high boost to power of own attacks in Seaside whistle and Summer goddess.\n" +
+        "__Ability 4__: while unidentified unit in front, 1 SCP drops (20 bug)\n" +
+        "__Apples__: red\n" +
+        "__Rating__: SS\n" +
+        "__Obtainable__: Fever on the Beach Event Hatcher Side A");
+        break;
+
+
 
       //SUMMER UNITS
       //
@@ -1685,7 +1736,7 @@ bot.on('message', (message) => {
 // UNIT PICTURES
 //
 //
-  if (command == ">pic"){
+  else if (command == ">pic"){
     switch (argsFinal){
       case 'morse':
         message.channel.send("", {file: "https://i.imgur.com/w19w1tQ.jpg" });
@@ -1924,10 +1975,13 @@ bot.on('message', (message) => {
       case 'chris':
         message.channel.send("", {file: "https://i.imgur.com/foioZRD.jpg"});
         break;
+      case 'summer swan':
+        message.channel.send("", {file: "https://i.imgur.com/tAl5peV.jpg"});
+        break;
       }
     }
 
-    if (command == ">bugmax"){
+    else if (command == ">bugmax"){
 
       //Looking for first argument "GIMMICK" - protect, junk, damage, virus, bomb, skill, timer, hacking
       //PROTECT
