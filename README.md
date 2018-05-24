@@ -30,3 +30,6 @@ Features are included through commands that have to be sent in chat. Majority of
         -  next duck hunt command
         -  claim waifu/husbando command
         -  build your own mini unit database of units owned, gain score per unit (early idea)
+
+
+Database log: https://docs.google.com/spreadsheets/d/1tmidEJfHZ_kU457NjuNsD5hKOqOk8i0Tp0SOX0A7Wbc/edit?usp=sharing
